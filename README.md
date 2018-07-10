@@ -23,7 +23,7 @@
 ------------------------------------------------
 1. Find student by id
 
-	http://localhost:8080/student/find/1
+	> http://localhost:8080/student/find/1
 
 1. Display all student information
 
@@ -66,8 +66,9 @@
   ### Useful tutorial links
   ------------------------
   
-	* [Detailed and simple tutorial for springboot and jpa](https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/)
-	* Learn Spring Data JPA with Real Apps -- followed this app's project structure with changes to springboot
+* [Detailed and simple tutorial for springboot and jpa](https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/)
+
+* Learn Spring Data JPA with Real Apps -- followed this app's project structure with changes to springboot
 	
  
  
