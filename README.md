@@ -3,7 +3,7 @@
  This is a sample project in springboot and jpa(hibernate) and mysql
  It performs basic database operations and join operation in student and department tables
  
- ##Student table
+ ### Student table
  ---------------
  
 	>* id primary key
@@ -11,10 +11,10 @@
 	>* cgpa not null
 	>* deptid foreign key references department table
 	
- ##Department table
+ ### Department table
  ------------------
-	>* id
-	>* name
+	>id
+	>name
 	
 > 	
 	* using 'MYSQL' database to store the tables 
@@ -55,7 +55,7 @@
 	
 		
 	
-  ###Tips
+  ### Tips
   -------
   * use Annotations such as @Autowired over context.xml files
   * use application.properties to store datasource information
@@ -63,7 +63,7 @@
   * Try to use same field name as table field name
   * Double check the component names
   
-  ###Useful tutorial links
+  ### Useful tutorial links
   ------------------------
   
 	* [Detailed and simple tutorial for springboot and jpa](https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/)
