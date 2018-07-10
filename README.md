@@ -6,53 +6,53 @@
  ### Student table
  ---------------
  
-	>* id primary key
-	>* name not null
-	>* cgpa not null
-	>* deptid foreign key references department table
+	 id primary key
+	 name not null
+	 cgpa not null
+	 deptid foreign key references department table
 	
  ### Department table
  ------------------
-	>id
-	>name
+	id
+	name
 	
-> 	
-	* using 'MYSQL' database to store the tables 
+ 	
+* using 'MYSQL' database to store the tables 
 	
-	##Implemented operations and sample url requests
-	------------------------------------------------
-	1. Find student by id
-		
-		> http://localhost:8080/student/find/1
-		
-	1. Display all student information
-		
-		> http://localhost:8080/student/findall
-		
-	1. Add new student entry to the table
-	
-		> http://localhost:8080/student/insert?name=kai&cgpa=9.87&deptid=100
-		
-	1. Update student entry
-		
-		> http://localhost:8080/student/update?id=7&name=sadie&cgpa=8.17&deptid=101
-		
-	1. Delete student entry
-		
-		> http://localhost:8080/student/delete/8
-		
-	1. Truncate the student table
-		
-		> http://localhost:8080/student/deleteAll
-		
-	1. Join student and department table
-	
-		> http://localhost:8080/jointable
-		
-	1. Find the college topper with respect to cgpa
-	
-		> http://localhost:8080/student/topper
-	
+### Implemented operations and sample url requests
+------------------------------------------------
+1. Find student by id
+
+	http://localhost:8080/student/find/1
+
+1. Display all student information
+
+	> http://localhost:8080/student/findall
+
+2. Add new student entry to the table
+
+	> http://localhost:8080/student/insert?name=kai&cgpa=9.87&deptid=100
+
+3. Update student entry
+
+	> http://localhost:8080/student/update?id=7&name=sadie&cgpa=8.17&deptid=101
+
+4. Delete student entry
+
+	> http://localhost:8080/student/delete/8
+
+5. Truncate the student table
+
+	> http://localhost:8080/student/deleteAll
+
+6. Join student and department table
+
+	> http://localhost:8080/jointable
+
+7. Find the college topper with respect to cgpa
+
+	> http://localhost:8080/student/topper
+
 		
 	
   ### Tips
