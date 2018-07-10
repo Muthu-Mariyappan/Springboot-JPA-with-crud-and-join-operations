@@ -1,7 +1,14 @@
 ## Springboot-JPA-with-crud-and-join-operations
 
- This is a sample project in springboot and jpa(hibernate) and mysql
- It performs basic database operations and join operation in student and department tables
+ This is a sample project in springboot and jpa(hibernate) using mysql database. 
+ 
+ JPA stands for java persistence API which is a collection of classes and methods which is used to store large amount of data permanently to the database and it also reduces the amount of code needed and simplifieds database interactions. 
+ 
+ JPA is a abstract idea(specification) and hibernate is a implemenation which comforms to the JPA specifications.
+ 
+ This project has basic database operations in student table and join operation for student and department table
+ 
+ For simplicity all requests are Get requests, please find below the sample get requests
  
  ### Student table
  ---------------
